@@ -77,7 +77,7 @@ public:
 
 class Role {
 public:
-	IMAGE im_iceMan, im_fireMan;
+	IMAGE im_iceMan, im_fireMan, im_show;
 	float x, y;
 	float x_left, y_bottom;
 	float vx, vy;
@@ -96,8 +96,7 @@ public:
 		loadimage(&im_iceMan, _T("iceMan.png"));
 		width = im_fireMan.getwidth();
 		height = im_fireMan.getheight();
-
-		updateXY(25, HEIGHT - 100);
+		updateXY(15, HEIGHT - 100);
 		vx = 2.5;
 		vy = 0;
 		g = 3;
@@ -121,6 +120,17 @@ public:
 		//vy += g;
 		y_bottom += vy;
 	}
+	void isOnLand(Wall& wall, float ySpeed) {
+
+	}
+};
+
+class FireMan :public Role {
+
+};
+
+class IceMan :public Role {
+
 };
 
 class Door {
@@ -185,6 +195,5 @@ int main() {
 		updateWithInput();
 	}
 
-	_getch();
 	return 0;
 }

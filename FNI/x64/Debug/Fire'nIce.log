@@ -1,9 +1,0 @@
-﻿  Fire'nIce.cpp
-F:\研开\Fire'nIce\menu.h(52,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-F:\研开\Fire'nIce\menu.h(53,20): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-F:\研开\Fire'nIce\menu.h(72,19): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-F:\研开\Fire'nIce\Fire'nIce.cpp(88,23): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-F:\研开\Fire'nIce\Fire'nIce.cpp(88,15): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-F:\研开\Fire'nIce\Fire'nIce.cpp(97,30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-F:\研开\Fire'nIce\Fire'nIce.cpp(98,32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-  Fire'nIce.vcxproj -> F:\研开\Fire'nIce\x64\Debug\Fire'nIce.exe
